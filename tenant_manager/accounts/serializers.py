@@ -3,7 +3,6 @@ from rest_framework import serializers
 from rest_framework.validators import UniqueTogetherValidator
 from .models import Owner
 
-
 class UserSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
